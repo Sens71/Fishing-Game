@@ -189,10 +189,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_4
       rect:
         serializedVersion: 2
-        x: 840
-        y: 911
-        width: 102
-        height: 159
+        x: 1272
+        y: 1064
+        width: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_6
       rect:
         serializedVersion: 2
-        x: 1488
-        y: 914
-        width: 132
-        height: 156
+        x: 1666
+        y: 910
+        width: 146
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_7
       rect:
         serializedVersion: 2
-        x: 1666
-        y: 910
-        width: 146
-        height: 165
+        x: 954
+        y: 913
+        width: 155
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_8
       rect:
         serializedVersion: 2
-        x: 954
-        y: 913
-        width: 155
-        height: 145
+        x: 1141
+        y: 914
+        width: 132
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_9
       rect:
         serializedVersion: 2
-        x: 1141
-        y: 914
-        width: 155
-        height: 175
+        x: 1266
+        y: 1046
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_11
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 913
-        width: 170
-        height: 144
+        x: 96
+        y: 648
+        width: 146
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +315,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_12
       rect:
         serializedVersion: 2
-        x: 96
-        y: 648
-        width: 146
-        height: 156
+        x: 265
+        y: 647
+        width: 190
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_13
       rect:
         serializedVersion: 2
-        x: 265
-        y: 647
-        width: 190
-        height: 159
+        x: 457
+        y: 649
+        width: 235
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_14
       rect:
         serializedVersion: 2
-        x: 457
-        y: 649
-        width: 235
-        height: 139
+        x: 716
+        y: 745
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_16
       rect:
         serializedVersion: 2
-        x: 776
-        y: 649
-        width: 179
-        height: 139
+        x: 711
+        y: 650
+        width: 31
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +399,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_18
       rect:
         serializedVersion: 2
-        x: 96
+        x: 273
         y: 382
-        width: 146
-        height: 156
+        width: 182
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_19
       rect:
         serializedVersion: 2
-        x: 273
-        y: 382
-        width: 182
-        height: 158
+        x: 460
+        y: 383
+        width: 239
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_20
       rect:
         serializedVersion: 2
-        x: 460
+        x: 729
         y: 383
-        width: 239
-        height: 139
+        width: 212
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_21
       rect:
         serializedVersion: 2
-        x: 729
+        x: 1027
         y: 383
-        width: 212
-        height: 138
+        width: 168
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_22
       rect:
         serializedVersion: 2
-        x: 976
-        y: 385
-        width: 9
-        height: 4
+        x: 95
+        y: 115
+        width: 148
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_23
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 383
-        width: 168
-        height: 137
+        x: 281
+        y: 115
+        width: 127
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_24
       rect:
         serializedVersion: 2
-        x: 95
+        x: 466
         y: 115
-        width: 148
-        height: 159
+        width: 173
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_25
       rect:
         serializedVersion: 2
-        x: 281
+        x: 648
         y: 115
-        width: 127
-        height: 157
+        width: 152
+        height: 152
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_26
       rect:
         serializedVersion: 2
-        x: 466
-        y: 115
-        width: 173
-        height: 157
+        x: 811
+        y: 116
+        width: 218
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_27
       rect:
         serializedVersion: 2
-        x: 648
-        y: 115
-        width: 152
-        height: 152
+        x: 1043
+        y: 114
+        width: 161
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_28
       rect:
         serializedVersion: 2
-        x: 811
-        y: 116
-        width: 218
-        height: 179
+        x: 1214
+        y: 114
+        width: 214
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_29
       rect:
         serializedVersion: 2
-        x: 1043
-        y: 114
-        width: 161
-        height: 221
+        x: 1431
+        y: 116
+        width: 211
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -651,10 +651,10 @@ TextureImporter:
       name: tim-lai-fish-quest-prototype-character_30
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 114
-        width: 214
-        height: 191
+        x: 1633
+        y: 116
+        width: 219
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,13 +669,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim-lai-fish-quest-prototype-character_31
+      name: tim-lai-fish-quest-prototype-character_3
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 116
-        width: 211
-        height: 161
+        x: 840
+        y: 911
+        width: 102
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,20 +683,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5852f8a0c808f7f48bf4be37da880e38
-      internalID: 950052912
+      spriteID: e67d81f72ff4cc0428aed444e7bb610d
+      internalID: 737439862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim-lai-fish-quest-prototype-character_32
+      name: tim-lai-fish-quest-prototype-character_5
       rect:
         serializedVersion: 2
-        x: 1633
-        y: 116
-        width: 219
-        height: 161
+        x: 1488
+        y: 914
+        width: 132
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,8 +704,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cc14014a4efac4ca9d67634626acd3
-      internalID: -980728345
+      spriteID: e6a83b1d7b883b544b54861f3205f102
+      internalID: 980292679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim-lai-fish-quest-prototype-character_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 913
+        width: 170
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5015da4dc5337104594be2a534b86845
+      internalID: 1184325761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim-lai-fish-quest-prototype-character_15
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 649
+        width: 179
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcf4c847c293c84b9ca04e7614949c0
+      internalID: 2092330141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tim-lai-fish-quest-prototype-character_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 382
+        width: 146
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1c1e545cef0414c87fa68c1cfde672
+      internalID: 1743131969
       vertices: []
       indices: 
       edges: []
@@ -746,9 +809,6 @@ TextureImporter:
       tim-lai-fish-quest-prototype-character_29: 412503883
       tim-lai-fish-quest-prototype-character_3: 737439862
       tim-lai-fish-quest-prototype-character_30: 495846610
-      tim-lai-fish-quest-prototype-character_31: 950052912
-      tim-lai-fish-quest-prototype-character_32: -980728345
-      tim-lai-fish-quest-prototype-character_33: 22945621
       tim-lai-fish-quest-prototype-character_4: -1790915170
       tim-lai-fish-quest-prototype-character_5: 980292679
       tim-lai-fish-quest-prototype-character_6: 2142728528
