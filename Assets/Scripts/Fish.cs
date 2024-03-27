@@ -13,7 +13,7 @@ public class Fish : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
