@@ -29,7 +29,7 @@ public class Fish : MonoBehaviour
             if (hook.state == HookStates.Catch ||hook.state == HookStates.Retrieve)
             {
                 speed = 0;
-                transform.position = hook.transform.position;
+                //transform.position = hook.transform.position;
             }
 
         }
