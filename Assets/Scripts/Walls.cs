@@ -11,10 +11,11 @@ public class Walls : MonoBehaviour
     private void Update()
     {
         
-        if(script.state == HookStates.Throw && (y-script.transform.position.y) <= 20)
+        if(script.state == HookStates.Throw && (script.transform.position.y-y) <= 20)
         {
             y -= 10;
-            Instantiate(walls,new Vector3(10,y,0),Quaternion.identity);
+            Instantiate(walls,new Vector3(0,y,0),Quaternion.identity,transform);
+            Instantiate(walls, new Vector3(-20, y, 0), Quaternion.identity,transform);
         }
     }
 }
