@@ -6,16 +6,16 @@ public class Walls : MonoBehaviour
 {
     public Hook script;
     public GameObject walls;
-    private float y=-10;
+    public float startY;
     
     private void Update()
     {
         
-        if(script.state == HookStates.Throw && (script.transform.position.y-y) <= 20)
+        if(script.state == HookStates.Throw && (script.transform.position.y-startY) <= 20)
         {
-            y -= 10;
-            Instantiate(walls,new Vector3(0,y,0),Quaternion.identity,transform);
-            Instantiate(walls, new Vector3(-20, y, 0), Quaternion.identity,transform);
+            startY -= 10;
+            Instantiate(walls,new Vector3(0,startY,0),Quaternion.identity,transform);
+            Instantiate(walls, new Vector3(-20, startY, 0), Quaternion.identity,transform);
         }
     }
 }
