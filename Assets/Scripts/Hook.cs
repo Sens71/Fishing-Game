@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +11,8 @@ public class Hook : MonoBehaviour
     public HookStates state = HookStates.Idle;
 
     public Transform retrievePoint;
+
+    public event Action OnRetrieve;
 
     public float sideSpeed;
     public float retrieveSpeed;
@@ -84,6 +87,7 @@ public class Hook : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
+            OnRetrieve?.Invoke();
             state = HookStates.Idle;
         }
     }
