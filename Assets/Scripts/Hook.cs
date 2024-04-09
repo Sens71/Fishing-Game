@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Hook : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class Hook : MonoBehaviour
     public float retrieveSpeed;
     public float pullSpeed;
     public float throwForce;
+
+   public TMPro.TextMeshPro moneyPro;
+
+    public GameObject ResultPanel;
     void Start()
     {
         mainCamera = Camera.main;
@@ -89,6 +94,8 @@ public class Hook : MonoBehaviour
             rb.velocity = Vector2.zero;
             OnRetrieve?.Invoke();
             state = HookStates.Idle;
+ 
+            ResultPanel.active = true;
         }
     }
 }
