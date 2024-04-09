@@ -9,6 +9,7 @@ public class Fish : MonoBehaviour
     private Rigidbody2D rb;
     public float speed;
     private Hook _hook = null;
+    public int money;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

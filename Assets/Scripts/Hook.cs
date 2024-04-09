@@ -94,7 +94,6 @@ public class Hook : MonoBehaviour
             rb.velocity = Vector2.zero;
             OnRetrieve?.Invoke();
             state = HookStates.Idle;
- 
             ResultPanel.active = true;
         }
     }
