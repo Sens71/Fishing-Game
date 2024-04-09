@@ -28,6 +28,7 @@ public class Fish : MonoBehaviour
                 rb.isKinematic = true;
                 speed = 0;
                 _hook = hook;
+                _hook.AddFish(this);
             }
         }
         facingRight = !facingRight;

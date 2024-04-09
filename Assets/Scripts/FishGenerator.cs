@@ -29,9 +29,13 @@ public class FishGenerator : MonoBehaviour
     {
         foreach(Fish f in fishList)
         {
-            fishList.Remove(f);
+            if (f == null)
+            {
+                continue;
+            }
             Destroy(f.gameObject);
         }
+        fishList.Clear();
         for(int i = 1; i < 10; i++)
         {
             Fish newfish= Instantiate(fishPrefabs[0],new Vector3(-10,-2*i,0),Quaternion.identity,transform);

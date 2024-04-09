@@ -19,10 +19,11 @@ public class Hook : MonoBehaviour
     public float retrieveSpeed;
     public float pullSpeed;
     public float throwForce;
-
-   public TMPro.TextMeshPro moneyPro;
+    public TMP_Text moneyPro;
 
     public GameObject ResultPanel;
+
+    private List<Fish> fishCought = new List<Fish>();
     void Start()
     {
         mainCamera = Camera.main;
@@ -94,7 +95,20 @@ public class Hook : MonoBehaviour
             rb.velocity = Vector2.zero;
             OnRetrieve?.Invoke();
             state = HookStates.Idle;
+            var result = 0;
+            foreach(var fish in fishCought)
+            {
+                result += fish.money;
+            }
+            fishCought.Clear();
+            moneyPro.text = $"You Got {result} dollars";
+
+
             ResultPanel.active = true;
         }
+    }
+    public void AddFish(Fish fish)
+    {
+        fishCought.Add(fish);
     }
 }
