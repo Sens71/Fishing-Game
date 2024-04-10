@@ -10,6 +10,7 @@ public class Hook : MonoBehaviour
     public float retrieveSpeed;
     public float pullSpeed;
     public float throwForce;
+    private int result;
     [Header("Controll")]
     public Transform retrievePoint;
     [Header("UI")]
@@ -24,6 +25,8 @@ public class Hook : MonoBehaviour
     public event Action OnRetrieve;
 
     private List<Fish> fishCought = new List<Fish>();
+
+    public PlayerProgress playerProgress;
     void Start()
     {
         mainCamera = Camera.main;
@@ -94,19 +97,23 @@ public class Hook : MonoBehaviour
             rb.velocity = Vector2.zero;
             OnRetrieve?.Invoke();
             state = HookStates.Idle;
-            var result = 0;
-            foreach(var fish in fishCought)
+            result = 0;
+            foreach (var fish in fishCought)
             {
                 result += fish.money;
             }
             fishCought.Clear();
             moneyPro.text = $"You Got {result} dollars";
-
+            playerProgress.TryChangeMoney(result);
             ResultPanel.SetActive(true);
         }
     }
     public void AddFish(Fish fish)
     {
         fishCought.Add(fish);
+    }
+    public void ChangeMoney()
+    {
+        playerProgress.TryChangeMoney(result);
     }
 }
