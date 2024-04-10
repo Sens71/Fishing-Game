@@ -6,22 +6,20 @@ using TMPro;
 
 public class Hook : MonoBehaviour
 {
-    private Camera mainCamera;
-    private Rigidbody2D rb;
-    private Vector3 targetPosition;
-    public HookStates state = HookStates.Idle;
-
-    public Transform retrievePoint;
-
-    public event Action OnRetrieve;
-
     public float sideSpeed;
     public float retrieveSpeed;
     public float pullSpeed;
     public float throwForce;
+    [Header("Controll")]
+    public Transform retrievePoint;
+    [Header("UI")]
+    public GameObject ResultPanel;
     public TMP_Text moneyPro;
 
-    public GameObject ResultPanel;
+    private Camera mainCamera;
+    private Rigidbody2D rb;
+    private Vector3 targetPosition;
+    public HookStates state = HookStates.Idle;
 
     private List<Fish> fishCought = new List<Fish>();
     void Start()
@@ -29,7 +27,6 @@ public class Hook : MonoBehaviour
         mainCamera = Camera.main;
         rb = GetComponent<Rigidbody2D>();
     }
-
     
     void FixedUpdate()
     {
@@ -93,7 +90,6 @@ public class Hook : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
-            OnRetrieve?.Invoke();
             state = HookStates.Idle;
             var result = 0;
             foreach(var fish in fishCought)
@@ -104,7 +100,7 @@ public class Hook : MonoBehaviour
             moneyPro.text = $"You Got {result} dollars";
 
 
-            ResultPanel.active = true;
+            ResultPanel.SetActive(true);
         }
     }
     public void AddFish(Fish fish)
