@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 442229596}
   - component: {fileID: 442229595}
   m_Layer: 0
-  m_Name: NML
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,7 +622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: d26f4f125235142d4af2761d3fa66dbb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -966,8 +966,39 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619394800}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &675538532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675538533}
+  m_Layer: 0
+  m_Name: __________________________________________
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &675538533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675538532}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.517487, y: 6.5860767, z: -0.020153308}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1656,7 +1687,7 @@ GameObject:
   - component: {fileID: 1329291876}
   - component: {fileID: 1329291875}
   m_Layer: 0
-  m_Name: tim-lai-fish-quest-prototype-character_8
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2532,14 +2563,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce18e44095c202445a62cac6762d46c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
-  retrievePoint: {fileID: 831999683}
   sideSpeed: 2
   retrieveSpeed: 25
   pullSpeed: 10
   throwForce: 1500
-  moneyPro: {fileID: 1053238909}
+  retrievePoint: {fileID: 831999683}
   ResultPanel: {fileID: 1968001909}
+  moneyPro: {fileID: 1053238909}
+  state: 0
 --- !u!70 &1755151248
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3516,11 +3547,12 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1755151246}
-  - {fileID: 619394802}
-  - {fileID: 685321505}
   - {fileID: 1329291876}
+  - {fileID: 685321505}
   - {fileID: 831999683}
   - {fileID: 1701794553}
+  - {fileID: 442229596}
+  - {fileID: 675538533}
   - {fileID: 478007294}
   - {fileID: 1788055650}
-  - {fileID: 442229596}
+  - {fileID: 619394802}
