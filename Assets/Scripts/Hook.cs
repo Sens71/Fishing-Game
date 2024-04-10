@@ -19,7 +19,9 @@ public class Hook : MonoBehaviour
     private Camera mainCamera;
     private Rigidbody2D rb;
     private Vector3 targetPosition;
+
     public HookStates state = HookStates.Idle;
+    public event Action OnRetrieve;
 
     private List<Fish> fishCought = new List<Fish>();
     void Start()
@@ -90,6 +92,7 @@ public class Hook : MonoBehaviour
         else
         {
             rb.velocity = Vector2.zero;
+            OnRetrieve?.Invoke();
             state = HookStates.Idle;
             var result = 0;
             foreach(var fish in fishCought)
@@ -98,7 +101,6 @@ public class Hook : MonoBehaviour
             }
             fishCought.Clear();
             moneyPro.text = $"You Got {result} dollars";
-
 
             ResultPanel.SetActive(true);
         }
