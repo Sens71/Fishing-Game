@@ -7,6 +7,7 @@ public class FishGenerator : MonoBehaviour
     public Fish[] fishPrefabs;
     private List<Fish> fishList = new List<Fish>();
     public Hook hook;
+    public int fishAmount;
     void Start()
     {
         Fish[] startFish = FindObjectsOfType<Fish>();
@@ -36,9 +37,23 @@ public class FishGenerator : MonoBehaviour
             Destroy(f.gameObject);
         }
         fishList.Clear();
-        for(int i = 1; i < 10; i++)
+        for(int i = 1; i < fishAmount; i++)
         {
-            Fish newfish= Instantiate(fishPrefabs[Random.Range(0,3)],new Vector3(Random.Range(-12,-7),Random.Range(-3,-2)*i,0),Quaternion.identity,transform);
+            Vector3 position = new Vector3(Random.Range(-12, -7), Random.Range(-3, -2) * i, 0);
+            Fish prefab;
+            if(position.y > -20)
+            {
+                prefab = fishPrefabs[0];
+            }
+            else if (position.y <= -20 && position.y > -40)
+            {
+                prefab = fishPrefabs[1];
+            }
+            else
+            {
+                prefab= fishPrefabs[2];
+            }
+            Fish newfish= Instantiate(prefab,position,Quaternion.identity,transform);
             fishList.Add(newfish);
         }
     }
