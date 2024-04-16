@@ -29,7 +29,7 @@ public class PlayerProgress : MonoBehaviour
     }
     private void ChangeUI()
     {
-        moneyText.text = $"You Got{money}";
+        moneyText.text = $"{money}";
     }
 
 }

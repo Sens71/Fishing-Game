@@ -103,8 +103,7 @@ public class Hook : MonoBehaviour
                 result += fish.money;
             }
             fishCought.Clear();
-            moneyPro.text = $"You Got {result} dollars";
-            playerProgress.TryChangeMoney(result);
+            moneyPro.text = $"You got {result} dollars";
             ResultPanel.SetActive(true);
         }
     }

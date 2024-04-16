@@ -38,7 +38,7 @@ public class FishGenerator : MonoBehaviour
         fishList.Clear();
         for(int i = 1; i < 10; i++)
         {
-            Fish newfish= Instantiate(fishPrefabs[0],new Vector3(-10,-2*i,0),Quaternion.identity,transform);
+            Fish newfish= Instantiate(fishPrefabs[Random.Range(0,3)],new Vector3(Random.Range(-12,-7),Random.Range(-3,-2)*i,0),Quaternion.identity,transform);
             fishList.Add(newfish);
         }
     }
