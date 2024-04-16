@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1761706714260483061}
   - component: {fileID: 9021527974811754165}
   - component: {fileID: 2891516557162274983}
-  - component: {fileID: 4767759698740923731}
+  - component: {fileID: 2653440180477509058}
   m_Layer: 0
   m_Name: fish3
   m_TagString: Untagged
@@ -128,8 +128,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &4767759698740923731
-CapsuleCollider2D:
+--- !u!68 &2653440180477509058
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -160,6 +160,23 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014420317, y: -0.014418878}
-  m_Size: {x: 3.7172549, y: 1.7561346}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.8730468, y: -0.02040249}
+  - {x: -1.57532, y: 0.46289694}
+  - {x: -0.7202298, y: 0.7003922}
+  - {x: -0.27075544, y: 0.66716146}
+  - {x: 0.771074, y: 0.22265492}
+  - {x: 1.8075095, y: 0.6662458}
+  - {x: 2.1371868, y: -0.117512375}
+  - {x: 1.7871336, y: -0.79278004}
+  - {x: 0.7980288, y: -0.18505684}
+  - {x: 0.3805511, y: -0.39752233}
+  - {x: -0.9538945, y: -0.51455855}
+  - {x: -1.4852098, y: -0.33244243}
+  - {x: -1.873047, y: -0.02040249}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
