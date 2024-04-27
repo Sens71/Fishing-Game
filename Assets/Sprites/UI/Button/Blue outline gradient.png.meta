@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 50, y: 50, z: 50, w: 50}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -108,18 +108,282 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Blue outline gradient_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 187.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e9b83b32c86804db25a4b69e1258da
+      internalID: 1887183087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 187.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b045e3cc95d68244870e24c5b8a3a16
+      internalID: 1220996505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 187.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a32f9352835910428ca0c1f9a98dd96
+      internalID: 1233512105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 187.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b643d5c0598c4fc4680db940e076a426
+      internalID: 1519390250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc15788fbbc3e84e8d0271bb9bd149d
+      internalID: 834609136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 125.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f67c6629cb964599fe23f01fbc6b6
+      internalID: -1513385082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f7c91ba6f94064fb3ad16adc6fe7d1
+      internalID: 305909600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 63.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f6c00196de61e4da5d9fee20375c5a
+      internalID: 1873314606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909e63592ff69142afc157ac522665c
+      internalID: 1753882450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab26e9a4e4eea4a88c79660ad4d244
+      internalID: -1925745275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659c3659bf0c3f942a7a21841f4e051f
+      internalID: 1690067222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue outline gradient_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1.5
+        width: 62.5
+        height: 62.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b70753af77cf0249b2b11d7648d83a6
+      internalID: 1658495342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue outline gradient_0: 1887183087
+      Blue outline gradient_1: 1220996505
+      Blue outline gradient_10: 1690067222
+      Blue outline gradient_11: 1658495342
+      Blue outline gradient_2: 1233512105
+      Blue outline gradient_3: 1519390250
+      Blue outline gradient_4: 834609136
+      Blue outline gradient_5: -1513385082
+      Blue outline gradient_6: 305909600
+      Blue outline gradient_7: 1873314606
+      Blue outline gradient_8: 1753882450
+      Blue outline gradient_9: -1925745275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
