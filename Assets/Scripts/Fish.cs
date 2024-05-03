@@ -26,6 +26,7 @@ public class Fish : MonoBehaviour
             if(hook.state == HookStates.Catch)
             {
                 rb.isKinematic = true;
+                hook.currentFishAmount++;
                 speed = 0;
                 _hook = hook;
                 _hook.AddFish(this);

@@ -1135,10 +1135,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwForce:
-  - value: 1700
+  - value: 1600
     cost: 100
+  - value: 1700
+    cost: 300
   - value: 1900
     cost: 300
+  - value: 2100
+    cost: 500
   catchCapacity:
   - value: 5
     cost: 50
@@ -1751,7 +1755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &618413825
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4192,7 +4196,7 @@ MonoBehaviour:
   - {fileID: 3823037830239638121, guid: 3f6e2164044ab8c45a2568aca4176e6d, type: 3}
   - {fileID: 9021527974811754165, guid: c9a225913db60c34fa9e3509b39776a1, type: 3}
   hook: {fileID: 1755151247}
-  fishAmount: 0
+  fishAmount: 7
 --- !u!4 &1701794553
 Transform:
   m_ObjectHideFlags: 0
@@ -4320,11 +4324,13 @@ MonoBehaviour:
   retrieveSpeed: 25
   pullSpeed: 10
   throwForce: 1500
+  maxFish: 3
   retrievePoint: {fileID: 831999683}
   ResultPanel: {fileID: 1968001909}
   moneyPro: {fileID: 1053238909}
   state: 0
   playerProgress: {fileID: 1329291877}
+  currentFishAmount: 0
 --- !u!70 &1755151248
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

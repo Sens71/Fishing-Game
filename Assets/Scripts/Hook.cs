@@ -10,6 +10,7 @@ public class Hook : MonoBehaviour
     public float retrieveSpeed;
     public float pullSpeed;
     public float throwForce;
+    public int maxFish;
     private int result;
     [Header("Controll")]
     public Transform retrievePoint;
@@ -27,7 +28,9 @@ public class Hook : MonoBehaviour
 
     private List<Fish> fishCought = new List<Fish>();
 
+
     public PlayerProgress playerProgress;
+    [HideInInspector]public int currentFishAmount;
     void Start()
     {
         mainCamera = Camera.main;
@@ -70,6 +73,7 @@ public class Hook : MonoBehaviour
         if(rb.velocity.sqrMagnitude < 0.3f)
         {
             state = HookStates.Catch;
+            currentFishAmount = 0;
         }
     }
     private void PullHook()
@@ -84,7 +88,7 @@ public class Hook : MonoBehaviour
             direction.y = 0f;
         }
         rb.MovePosition(transform.position +(direction * sideSpeed + Vector3.up * pullSpeed) * Time.fixedDeltaTime);
-        if(transform.position.y > 0f)
+        if(transform.position.y > 0f||currentFishAmount >= maxFish)
         {
             state = HookStates.Retrieve;
         }

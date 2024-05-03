@@ -22,10 +22,11 @@ public class Shop : MonoBehaviour
     }
     public void UpgradeForce()
     {
-        if (playerProgress.TryChangeMoney(throwForce[throwUpgradeIndex].cost))
+        if (playerProgress.TryChangeMoney(throwForce[throwUpgradeIndex].cost)&& throwUpgradeIndex < throwForce.Length)
         {
             hook.throwForce = throwForce[throwUpgradeIndex].value;
-            throwUpgradeIndex ++;
+            throwUpgradeIndex++;
+            throwUpgrade.text = throwForce[throwUpgradeIndex].cost.ToString();
         }
     }
     public void UpgradeCapacity()
