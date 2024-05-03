@@ -16,6 +16,7 @@ public class Hook : MonoBehaviour
     [Header("UI")]
     public GameObject ResultPanel;
     public TMP_Text moneyPro;
+    private bool canThrow;
 
     private Camera mainCamera;
     private Rigidbody2D rb;
@@ -53,11 +54,16 @@ public class Hook : MonoBehaviour
     }
     private void WaitForThrow()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (canThrow)
         {
             rb.AddForce(Vector2.down * throwForce);
             state = HookStates.Throw;
+            canThrow = false;
         }
+    }
+    public void ChangeThrowState()
+    {
+        canThrow = true;
     }
     private void ThrowHook()
     {

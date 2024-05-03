@@ -12,6 +12,8 @@ public class Shop : MonoBehaviour
     private int throwUpgradeIndex;
     public TMP_Text catchUpgrade;
     public TMP_Text throwUpgrade;
+    public Hook hook;
+    public PlayerProgress playerProgress;
 
     private void Start()
     {
@@ -20,7 +22,11 @@ public class Shop : MonoBehaviour
     }
     public void UpgradeForce()
     {
-
+        if (playerProgress.TryChangeMoney(throwForce[throwUpgradeIndex].cost))
+        {
+            hook.throwForce = throwForce[throwUpgradeIndex].value;
+            throwUpgradeIndex ++;
+        }
     }
     public void UpgradeCapacity()
     {
